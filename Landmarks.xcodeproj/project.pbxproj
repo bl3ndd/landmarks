@@ -43,14 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8D65C8F62AE5255400AC1EFB /* testik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D65C8F62AE5255400AC1EFB /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D65C8F92AE5255400AC1EFB /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		8D65C8FB2AE5255400AC1EFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8D65C8FD2AE5255500AC1EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D65C9002AE5255500AC1EFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8D65C9062AE5255600AC1EFB /* testikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D65C9062AE5255600AC1EFB /* LandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D65C90A2AE5255600AC1EFB /* LandmarksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksTests.swift; sourceTree = "<group>"; };
-		8D65C9102AE5255600AC1EFB /* testikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D65C9102AE5255600AC1EFB /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D65C9142AE5255600AC1EFB /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		8D65C9162AE5255600AC1EFB /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8D65C9232AE5291A00AC1EFB /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
@@ -92,9 +92,9 @@
 		8D65C8ED2AE5255400AC1EFB = {
 			isa = PBXGroup;
 			children = (
-				8D65C8F82AE5255400AC1EFB /* testik */,
-				8D65C9092AE5255600AC1EFB /* testikTests */,
-				8D65C9132AE5255600AC1EFB /* testikUITests */,
+				8D65C8F82AE5255400AC1EFB /* Landmarks */,
+				8D65C9092AE5255600AC1EFB /* LandmarksTests */,
+				8D65C9132AE5255600AC1EFB /* LandmarksUITests */,
 				8D65C8F72AE5255400AC1EFB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,14 +102,14 @@
 		8D65C8F72AE5255400AC1EFB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D65C8F62AE5255400AC1EFB /* testik.app */,
-				8D65C9062AE5255600AC1EFB /* testikTests.xctest */,
-				8D65C9102AE5255600AC1EFB /* testikUITests.xctest */,
+				8D65C8F62AE5255400AC1EFB /* Landmarks.app */,
+				8D65C9062AE5255600AC1EFB /* LandmarksTests.xctest */,
+				8D65C9102AE5255600AC1EFB /* LandmarksUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8D65C8F82AE5255400AC1EFB /* testik */ = {
+		8D65C8F82AE5255400AC1EFB /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
 				8D65C9632AE538D900AC1EFB /* Resources */,
@@ -119,7 +119,7 @@
 				8D65C8FD2AE5255500AC1EFB /* Assets.xcassets */,
 				8D65C8FF2AE5255500AC1EFB /* Preview Content */,
 			);
-			path = testik;
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 		8D65C8FF2AE5255500AC1EFB /* Preview Content */ = {
@@ -130,21 +130,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8D65C9092AE5255600AC1EFB /* testikTests */ = {
+		8D65C9092AE5255600AC1EFB /* LandmarksTests */ = {
 			isa = PBXGroup;
 			children = (
 				8D65C90A2AE5255600AC1EFB /* LandmarksTests.swift */,
 			);
-			path = testikTests;
+			path = LandmarksTests;
 			sourceTree = "<group>";
 		};
-		8D65C9132AE5255600AC1EFB /* testikUITests */ = {
+		8D65C9132AE5255600AC1EFB /* LandmarksUITests */ = {
 			isa = PBXGroup;
 			children = (
 				8D65C9142AE5255600AC1EFB /* LandmarksUITests.swift */,
 				8D65C9162AE5255600AC1EFB /* LandmarksUITestsLaunchTests.swift */,
 			);
-			path = testikUITests;
+			path = LandmarksUITests;
 			sourceTree = "<group>";
 		};
 		8D65C9612AE538A500AC1EFB /* Views */ = {
@@ -197,9 +197,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D65C8F52AE5255400AC1EFB /* testik */ = {
+		8D65C8F52AE5255400AC1EFB /* Landmarks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D65C91A2AE5255600AC1EFB /* Build configuration list for PBXNativeTarget "testik" */;
+			buildConfigurationList = 8D65C91A2AE5255600AC1EFB /* Build configuration list for PBXNativeTarget "Landmarks" */;
 			buildPhases = (
 				8D65C8F22AE5255400AC1EFB /* Sources */,
 				8D65C8F32AE5255400AC1EFB /* Frameworks */,
@@ -209,14 +209,14 @@
 			);
 			dependencies = (
 			);
-			name = testik;
+			name = Landmarks;
 			productName = testik;
-			productReference = 8D65C8F62AE5255400AC1EFB /* testik.app */;
+			productReference = 8D65C8F62AE5255400AC1EFB /* Landmarks.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8D65C9052AE5255600AC1EFB /* testikTests */ = {
+		8D65C9052AE5255600AC1EFB /* LandmarksTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D65C91D2AE5255600AC1EFB /* Build configuration list for PBXNativeTarget "testikTests" */;
+			buildConfigurationList = 8D65C91D2AE5255600AC1EFB /* Build configuration list for PBXNativeTarget "LandmarksTests" */;
 			buildPhases = (
 				8D65C9022AE5255600AC1EFB /* Sources */,
 				8D65C9032AE5255600AC1EFB /* Frameworks */,
@@ -227,14 +227,14 @@
 			dependencies = (
 				8D65C9082AE5255600AC1EFB /* PBXTargetDependency */,
 			);
-			name = testikTests;
+			name = LandmarksTests;
 			productName = testikTests;
-			productReference = 8D65C9062AE5255600AC1EFB /* testikTests.xctest */;
+			productReference = 8D65C9062AE5255600AC1EFB /* LandmarksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8D65C90F2AE5255600AC1EFB /* testikUITests */ = {
+		8D65C90F2AE5255600AC1EFB /* LandmarksUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D65C9202AE5255600AC1EFB /* Build configuration list for PBXNativeTarget "testikUITests" */;
+			buildConfigurationList = 8D65C9202AE5255600AC1EFB /* Build configuration list for PBXNativeTarget "LandmarksUITests" */;
 			buildPhases = (
 				8D65C90C2AE5255600AC1EFB /* Sources */,
 				8D65C90D2AE5255600AC1EFB /* Frameworks */,
@@ -245,9 +245,9 @@
 			dependencies = (
 				8D65C9122AE5255600AC1EFB /* PBXTargetDependency */,
 			);
-			name = testikUITests;
+			name = LandmarksUITests;
 			productName = testikUITests;
-			productReference = 8D65C9102AE5255600AC1EFB /* testikUITests.xctest */;
+			productReference = 8D65C9102AE5255600AC1EFB /* LandmarksUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -273,7 +273,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8D65C8F12AE5255400AC1EFB /* Build configuration list for PBXProject "testik" */;
+			buildConfigurationList = 8D65C8F12AE5255400AC1EFB /* Build configuration list for PBXProject "Landmarks" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -286,9 +286,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D65C8F52AE5255400AC1EFB /* testik */,
-				8D65C9052AE5255600AC1EFB /* testikTests */,
-				8D65C90F2AE5255600AC1EFB /* testikUITests */,
+				8D65C8F52AE5255400AC1EFB /* Landmarks */,
+				8D65C9052AE5255600AC1EFB /* LandmarksTests */,
+				8D65C90F2AE5255600AC1EFB /* LandmarksUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -360,12 +360,12 @@
 /* Begin PBXTargetDependency section */
 		8D65C9082AE5255600AC1EFB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8D65C8F52AE5255400AC1EFB /* testik */;
+			target = 8D65C8F52AE5255400AC1EFB /* Landmarks */;
 			targetProxy = 8D65C9072AE5255600AC1EFB /* PBXContainerItemProxy */;
 		};
 		8D65C9122AE5255600AC1EFB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8D65C8F52AE5255400AC1EFB /* testik */;
+			target = 8D65C8F52AE5255400AC1EFB /* Landmarks */;
 			targetProxy = 8D65C9112AE5255600AC1EFB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -561,7 +561,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testik.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/testik";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Landmarks";
 			};
 			name = Debug;
 		};
@@ -580,7 +580,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testik.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/testik";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Landmarks";
 			};
 			name = Release;
 		};
@@ -621,7 +621,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8D65C8F12AE5255400AC1EFB /* Build configuration list for PBXProject "testik" */ = {
+		8D65C8F12AE5255400AC1EFB /* Build configuration list for PBXProject "Landmarks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D65C9182AE5255600AC1EFB /* Debug */,
@@ -630,7 +630,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D65C91A2AE5255600AC1EFB /* Build configuration list for PBXNativeTarget "testik" */ = {
+		8D65C91A2AE5255600AC1EFB /* Build configuration list for PBXNativeTarget "Landmarks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D65C91B2AE5255600AC1EFB /* Debug */,
@@ -639,7 +639,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D65C91D2AE5255600AC1EFB /* Build configuration list for PBXNativeTarget "testikTests" */ = {
+		8D65C91D2AE5255600AC1EFB /* Build configuration list for PBXNativeTarget "LandmarksTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D65C91E2AE5255600AC1EFB /* Debug */,
@@ -648,7 +648,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D65C9202AE5255600AC1EFB /* Build configuration list for PBXNativeTarget "testikUITests" */ = {
+		8D65C9202AE5255600AC1EFB /* Build configuration list for PBXNativeTarget "LandmarksUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D65C9212AE5255600AC1EFB /* Debug */,
