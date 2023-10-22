@@ -8,7 +8,7 @@
 import XCTest
 @testable import testik
 
-final class testikTests: XCTestCase {
+final class LandmarksTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
