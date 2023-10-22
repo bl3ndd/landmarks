@@ -23,6 +23,9 @@
 		8D65C96A2AE54D4500AC1EFB /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D65C9692AE54D4500AC1EFB /* LandmarkList.swift */; };
 		8D65C96C2AE54F3E00AC1EFB /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D65C96B2AE54F3E00AC1EFB /* LandmarkDetail.swift */; };
 		8D65C96E2AE55EA500AC1EFB /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D65C96D2AE55EA500AC1EFB /* FavoriteButton.swift */; };
+		8D65C9732AE5771900AC1EFB /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D65C9722AE5771900AC1EFB /* CategoryView.swift */; };
+		8D65C9752AE57D9C00AC1EFB /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D65C9742AE57D9C00AC1EFB /* CategoryRow.swift */; };
+		8D65C9772AE5805A00AC1EFB /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D65C9762AE5805A00AC1EFB /* CategoryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,9 @@
 		8D65C9692AE54D4500AC1EFB /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		8D65C96B2AE54F3E00AC1EFB /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		8D65C96D2AE55EA500AC1EFB /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		8D65C9722AE5771900AC1EFB /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		8D65C9742AE57D9C00AC1EFB /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		8D65C9762AE5805A00AC1EFB /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,7 @@
 				8D65C9702AE55FF900AC1EFB /* Helper */,
 				8D65C96F2AE55FA700AC1EFB /* Landmarks */,
 				8D65C8FB2AE5255400AC1EFB /* ContentView.swift */,
+				8D65C9712AE576F900AC1EFB /* Category */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,8 +184,8 @@
 		8D65C96F2AE55FA700AC1EFB /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
-				8D65C9652AE5399500AC1EFB /* LandmarkRow.swift */,
 				8D65C9692AE54D4500AC1EFB /* LandmarkList.swift */,
+				8D65C9652AE5399500AC1EFB /* LandmarkRow.swift */,
 				8D65C96B2AE54F3E00AC1EFB /* LandmarkDetail.swift */,
 			);
 			path = Landmarks;
@@ -192,6 +199,16 @@
 				8D65C96D2AE55EA500AC1EFB /* FavoriteButton.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		8D65C9712AE576F900AC1EFB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8D65C9722AE5771900AC1EFB /* CategoryView.swift */,
+				8D65C9742AE57D9C00AC1EFB /* CategoryRow.swift */,
+				8D65C9762AE5805A00AC1EFB /* CategoryItem.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,13 +344,16 @@
 			files = (
 				8D65C8FC2AE5255400AC1EFB /* ContentView.swift in Sources */,
 				8D65C9262AE52AFD00AC1EFB /* MapView.swift in Sources */,
+				8D65C9732AE5771900AC1EFB /* CategoryView.swift in Sources */,
 				8D65C8FA2AE5255400AC1EFB /* LandmarksApp.swift in Sources */,
 				8D65C96E2AE55EA500AC1EFB /* FavoriteButton.swift in Sources */,
 				8D65C96A2AE54D4500AC1EFB /* LandmarkList.swift in Sources */,
 				8D65C96C2AE54F3E00AC1EFB /* LandmarkDetail.swift in Sources */,
 				8D65C9242AE5291A00AC1EFB /* CircleImage.swift in Sources */,
+				8D65C9772AE5805A00AC1EFB /* CategoryItem.swift in Sources */,
 				8D65C95E2AE5331300AC1EFB /* Landmark.swift in Sources */,
 				8D65C9662AE5399500AC1EFB /* LandmarkRow.swift in Sources */,
+				8D65C9752AE57D9C00AC1EFB /* CategoryRow.swift in Sources */,
 				8D65C9602AE536D800AC1EFB /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,7 +517,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"testik/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -525,7 +545,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"testik/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
